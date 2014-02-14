@@ -15,7 +15,7 @@ var data = {
 	]
 
 };
-var rawHtml = "<ul> {{#students}} <li>{{name}} - {{ID}}</li> {{/students}} </ul> <ul> {{#assignments}} <li>{{number}} - {{description}}</li> {{/assignments}} </ul>";
+var rawHtml = "<h4>Students</h4><ul> {{#students}} <li>{{name}} - {{ID}}</li> {{/students}} </ul> <h4>Assignments</h4><ul> {{#assignments}} <li>{{number}} - {{description}}</li> {{/assignments}} </ul>";
 
 var template = Handlebars.compile(rawHtml);
 var html = template(data);
