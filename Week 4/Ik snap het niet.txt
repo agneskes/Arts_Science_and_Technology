@@ -1,5 +1,0 @@
-<form action="/some/url" method="get">
-  <label>Enter your first name: </label>
-  <input type="text" name="first_name" >
-  <input type="submit" name="submit" value="Submit">
-</form>
